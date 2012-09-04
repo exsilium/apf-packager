@@ -1390,7 +1390,7 @@
               short="textarea element"
               desc="Alias to the textbox element" />
             <p:define name="__AMLTEXTBOX"
-              match="a:textbox|a:input|a:secret|a:textarea"
+              match="a:secret"
               short="textbox element"
               desc="Element displaying a rectangular area wich allows a user to type information.The information typed can be restricted by using masking. The information can also be hidden from view when used in password mode. By adding an autocomplete element as a child the value for the textbox can be looked up as you type. By setting the mask atribute, complex data input validation is done while the users types.">
                 <p:define name="__ENABLE_TEXTBOX_MASKING"
